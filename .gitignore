@@ -1,0 +1,19 @@
+# Binários compilados
+*.o
+*.out
+*.exe
+
+# Executáveis do projeto
+exemplo
+test_alocacao
+test_liberacao
+test_estatisticas
+
+# Cache e lixo de editor
+*.swp
+*.swo
+.DS_Store
+
+# Configurações de IDE
+.vscode/
+.idea/
