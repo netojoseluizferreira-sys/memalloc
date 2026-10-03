@@ -21,6 +21,7 @@ que simula o heap, implementando do zero:
 ## Estrutura
 
 memalloc/
+
 ├── include/     # interface pública (memalloc.h)
 
 ├── src/         # implementação (memalloc.c)
