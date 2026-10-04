@@ -50,6 +50,13 @@ valgrind: exemplo
 	@echo "[VALGRIND] Rodando exemplo"
 	@valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./exemplo
 
+valgrind-test: test
+	@for t in $(TESTES); do \
+		bin=$${t%.c}; \
+		echo "[VALGRIND] $$bin"; \
+		valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./$$bin || exit 1; \
+	done
+
 # Limpa binários
 clean:
 	@echo "[CLEAN] Removendo binários"
