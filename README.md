@@ -67,6 +67,14 @@ organizada em blocos progressivos. O `memalloc` fecha o primeiro bloco,
 consolidando os fundamentos de ponteiros e gerenciamento de memória
 antes de avançar para estruturas de dados.
 
+## Status
+
+✅ **v1.0 — Completo e testado**
+
+- Alocador funcional com divisão de blocos e coalescência
+- 3 testes de verificação (alocação, liberação, estatísticas)
+- Valgrind limpo (`definitely lost: 0`, `0 errors`)
+
 ## Licença
 
 MIT — veja [LICENSE](LICENSE).
