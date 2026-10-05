@@ -20,18 +20,14 @@ que simula o heap, implementando do zero:
 
 ## Estrutura
 
+```
 memalloc/
-
 ├── include/     # interface pública (memalloc.h)
-
 ├── src/         # implementação (memalloc.c)
-
 ├── tests/       # testes automatizados
-
 ├── examples/    # exemplos de uso
-
 └── docs/        # arquitetura e decisões de design
-
+```
 
 ## Compilar
 
